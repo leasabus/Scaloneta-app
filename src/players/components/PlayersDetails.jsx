@@ -2,7 +2,6 @@ import { Navigate, useNavigate, useParams } from "react-router-dom";
 import { getPlayerById } from "../helpers/getPlayerById";
 
 
-
 export const PlayersDetails = () => {
 
     const { id } = useParams();
@@ -26,7 +25,10 @@ export const PlayersDetails = () => {
                 <div className="details">
                     <div className="detail-container">
                         <div className="image-detail animate__animated animate__fadeInLeft ">
-                            <img src={`/src/assets/${id}.jpg`} alt="" width="300" />
+                            <img src={`../../assets/${id}`} alt="" width="300" />
+
+
+
                         </div>
                     </div>
 

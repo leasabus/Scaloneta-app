@@ -8,7 +8,9 @@ export const PlayersRoutes = () => {
     return (
         <>
             <NavBar />
+
             <Routes>
+
                 <Route path='home' element={<Home />}></Route>
                 <Route path='arqueros' element={<Arqueros />}></Route>
                 <Route path='defensores' element={<Defensores />}></Route>
@@ -17,6 +19,7 @@ export const PlayersRoutes = () => {
                 <Route path='search' element={<Search />}></Route>
                 <Route path='details/:id' element={<PlayersDetails />}></Route>
                 <Route path='*' element={<Home />}></Route>
+
 
             </Routes>
         </>

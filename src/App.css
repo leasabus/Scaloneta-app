@@ -11,6 +11,7 @@
 
 body {
     background-color: rgb(217, 213, 213);
+
 }
 
 a {
@@ -372,6 +373,7 @@ header .navlink:hover {
         margin-bottom: 50px;
         border-width: 3px;
 
+
         -webkit-box-shadow: 5px 5px 15px 3px rgba(13, 52, 178, 0.75);
         -moz-box-shadow: 5px 5px 15px 3px rgba(13, 52, 178, 0.75);
         box-shadow: 5px 5px 15px 3px rgba(13, 52, 178, 0.75);
@@ -487,7 +489,6 @@ header .navlink:hover {
         display: flex;
         justify-content: center;
         font-weight: bold;
-        margin-top: 100px;
     }
 
     .home-container .home-text {
