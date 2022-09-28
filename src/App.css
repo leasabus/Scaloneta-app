@@ -150,13 +150,27 @@ header .navlink:hover {
 
 }
 
-.information {
+.information button {
+    border-style: none;
+    border-radius: 10px;
+    padding: 5px;
+    background: #00b4d8;
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+.information button:hover {
+    background: aliceblue;
+    color: black;
+}
+
+/* .information {
     font-size: 1.2em;
     margin-top: 15px;
     padding: 10px;
     color: #00b4d8;
     border-radius: 15px;
-}
+} */
 
 .information:hover {
     color: aliceblue;
