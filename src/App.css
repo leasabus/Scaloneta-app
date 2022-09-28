@@ -239,7 +239,7 @@ header .navlink:hover {
     text-align: center;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)), url(../public/assets/scalonetta.jpg);
+            rgba(0, 0, 0, 0.6)), url(./assets/scalonetta.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
