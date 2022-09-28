@@ -13,6 +13,7 @@ export const PlayersDetails = () => {
         navigate(-1)
     }
     /*redireccion para cuando no existe el url de heroe*/
+    const playerUrl = `./assets/${id}.jpg`;
     if (!player) {
         return <Navigate to="/delanteros"></Navigate>
     }
@@ -25,7 +26,7 @@ export const PlayersDetails = () => {
                 <div className="details">
                     <div className="detail-container">
                         <div className="image-detail animate__animated animate__fadeInLeft ">
-                            <img src={`../../assets/${id}`} alt="" width="300" />
+                            <img src={playerUrl} alt={player.nombre} width="300" />
 
 
 

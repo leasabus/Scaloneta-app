@@ -13,14 +13,14 @@ export const PlayersCards = ({
     estatura,
     debut
 }) => {
-    // const imageUrl = `../../assets/${id}.jpg`;
+    const imageUrl = `./assets/${id}.jpg`;
     //EL ID DEL ARRAY DE JUGADORES TIENE Q SER EL MISMO ID Q EL NOMBRE DE LAS IMG
 
     return (
         <div className='img-container animate__animated animate__fadeIn'>
 
             <div className='img-display'>
-                <img src={`../../assets/${id}`} alt={nombre} width="250" height="350" />
+                <img src={imageUrl} alt={nombre} width="250" height="350" />
             </div>
             <div className='img-display-text'>
                 <h5>{nombre}</h5>
