@@ -27,7 +27,7 @@ export const PlayersCards = ({
                 <span>Equipo: {equipo}</span>
                 <span>Debut en selección: {debut}</span>
                 <span>Edad: {edad}</span>
-                <Link to={`/details/${id}`} className="information">Más información</Link>
+                <Link to={`/details/${id}`} className="information"> <button>Más información</button></Link>
             </div>
 
         </div>

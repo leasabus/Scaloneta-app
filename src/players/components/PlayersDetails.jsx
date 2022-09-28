@@ -37,7 +37,7 @@ export const PlayersDetails = () => {
 
                         <h4>{player.equipo}</h4>
                         <span><b>Edad:</b> {player.edad}</span>
-                        <span><b>Debut en selecciónes:</b> {player.debut}</span>
+                        <span><b>Debut en selecciones:</b> {player.debut}</span>
                         <span><b>Goles Totales:</b> {player.goles}</span>
                         <span><b>Títulos/trofeos totales:</b> {player.títulos}</span>
                         <span><b>Mundiales disuputados:</b> {player.mundiales}</span>

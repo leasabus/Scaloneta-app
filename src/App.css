@@ -104,7 +104,7 @@ header .navlink:hover {
 }
 
 .img-container:hover {
-    transform: translateY(-10px);
+    transform: translateY(-3px);
     -webkit-box-shadow: 5px 10px 20px 0px rgba(17, 95, 191, 1);
     -moz-box-shadow: 5px 10px 20px 0px rgba(17, 95, 191, 1);
     box-shadow: 5px 10px 20px 0px rgba(17, 95, 191, 1);
@@ -240,7 +240,7 @@ header .navlink:hover {
     text-align: center;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.6),
-            rgba(0, 0, 0, 0.6)), url(./assets/scalonetta.jpg);
+            rgba(0, 0, 0, 0.6)), url('./assets/scalonetta.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -351,6 +351,19 @@ header .navlink:hover {
         font-size: 1.2em;
     }
 
+    .information button {
+        border-style: none;
+        border-radius: 10px;
+        padding: 5px;
+        background: #00b4d8;
+        color: aliceblue;
+    }
+
+    .information button:hover {
+        background: aliceblue;
+        color: black;
+    }
+
     .search-container {
         display: flex;
         justify-content: center;
@@ -386,11 +399,7 @@ header .navlink:hover {
         transition: 0.2s;
     }
 
-    .image-detail img:hover {
-        transform: translateY(-15px);
-        border-color: black;
 
-    }
 
     .descriptions-details {
         display: flex;
@@ -415,6 +424,8 @@ header .navlink:hover {
         align-items: center;
         margin-right: 320px;
         margin-top: 40px;
+        padding: 15px;
+        border-radius: 20px;
 
     }
 
@@ -480,7 +491,7 @@ header .navlink:hover {
         text-align: center;
         background-image: linear-gradient(0deg,
                 rgba(0, 0, 0, 0.6),
-                rgba(0, 0, 0, 0.6)), url(./assets/scalonetta.jpg);
+                rgba(0, 0, 0, 0.6)), url('./assets/scalonetta.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
